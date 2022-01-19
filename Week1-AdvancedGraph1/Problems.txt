@@ -1,0 +1,4 @@
+Q1: Cave Painting, USACO-P-JAN2020 q1
+Q2: Cheering up the Cows, USACO-G-NOV2008 q2
+Q3: Ski Course Rating, USACO-G-JAN2014 q3
+Q4: Switch Grass, USACO-P-OPEN2017 q2

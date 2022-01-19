@@ -1,0 +1,19 @@
+{
+    "files.associations": {
+        "deque": "cpp",
+        "utility": "cpp",
+        "__hash_table": "cpp",
+        "__split_buffer": "cpp",
+        "__tree": "cpp",
+        "list": "cpp",
+        "queue": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "set": "cpp",
+        "iterator": "cpp",
+        "iostream": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp"
+    }
+}
