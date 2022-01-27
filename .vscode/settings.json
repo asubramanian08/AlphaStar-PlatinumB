@@ -16,6 +16,9 @@
         "tuple": "cpp",
         "type_traits": "cpp",
         "locale": "cpp",
-        "map": "cpp"
+        "map": "cpp",
+        "__locale": "cpp",
+        "ios": "cpp",
+        "algorithm": "cpp"
     }
 }

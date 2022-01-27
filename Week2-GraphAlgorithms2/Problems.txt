@@ -1,0 +1,4 @@
+Q1: Distance, ?? - basic LCA question
+Q2: Max Flow, USACO-P-DEC2015 q1
+Q3: Moorio Kart, USACO-P-FEB2019 q2
+Q4: Exercise Route, USACO-P-JAN2019 q2
