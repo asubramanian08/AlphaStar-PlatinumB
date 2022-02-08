@@ -1,0 +1,4 @@
+Q1: New Barns, USACO-P-FEB2018 q2
+Q2: Cow Calisthenics, USACO-G-DEC2011 q1
+Q3: Redundant Paths, USACO-G-JAN2006 q1
+Q4: Push a Box, USACO-P-DEC2017 q2

@@ -19,6 +19,8 @@
         "map": "cpp",
         "__locale": "cpp",
         "ios": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "array": "cpp",
+        "string_view": "cpp"
     }
 }
