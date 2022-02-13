@@ -21,6 +21,9 @@
         "ios": "cpp",
         "algorithm": "cpp",
         "array": "cpp",
-        "string_view": "cpp"
+        "string_view": "cpp",
+        "bitset": "cpp",
+        "initializer_list": "cpp",
+        "new": "cpp"
     }
 }

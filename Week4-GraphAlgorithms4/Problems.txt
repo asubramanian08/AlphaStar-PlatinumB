@@ -1,0 +1,4 @@
+Q1: The Cow Prom, USACO-S-JAN2006 q1
+Q2: Grass Cownoisseur, USACO-G-JAN2015 q3
+Q3: Sprinklers, USACO-P-JAN2018 q3
+Q4: Exercise, USACO-P-OPEN2020 q2
