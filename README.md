@@ -10,4 +10,5 @@ There is a folder for each week of the class names "Week#-(description)". Within
 * Questions Folder: Contains all the questions in .txt format
 * Problems.txt: The problem name and where each problem is from ([USACO](http://usaco.org/) or [IOI](https://ioinformatics.org/)). Note, use the solutions that are given from those contests.
 * Answers: For example Q1.cpp, containing my solutions to the questions (sometimes there are part a and b solutions)
-* _Optional, private_ Lectures Folder: All the lectures associated with the weeks problems. There is also an [ExtraLectures](https://github.com/asubramanian08/AlphaStar-PlatinumA/tree/master/ExtraLectures) folder that could have useful resources for learning concepts.
+* *Optional, private* Lectures Folder: All the lectures associated with the weeks problems. There is also an [ExtraLectures](https://github.com/asubramanian08/AlphaStar-PlatinumA/tree/master/ExtraLectures) folder that could have useful resources for learning concepts.
+* *private* Solutions Folder: Contains all the given solutions for every question asked
