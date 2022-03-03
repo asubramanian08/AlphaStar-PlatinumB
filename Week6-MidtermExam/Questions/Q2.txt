@@ -1,0 +1,45 @@
+Time To Go
+
+Farmer John’s 𝑁 cows (1≤𝑁≤10^5) have just attended an amazing party hosted by the one and only
+Bessie! There are exactly 𝑁−1 pairs of cows that are friends with each other, and every cow knows
+every other cow through some chain of friendships.
+
+The party was fun, but midnight is almost here, so it is time to go. However, the 𝑁 cows are having
+too much fun to leave right away, so some cows express their anger by saying that other cows have to
+leave before they will. There are 𝑀 (1≤𝑀≤10^5) pairs of cows (𝑎𝑖,𝑏𝑖) such that cow 𝑎𝑖 must leave
+before cow 𝑏𝑖. Note that cows 𝑎𝑖 and 𝑏𝑖 may or may not be friends.
+
+In addition, cows don’t want to be left with no one to hang out with at the party, so they want to
+leave in some order such that as long as there are two or more cows left, every remaining cow has a
+remaining friend.
+
+Each of the cows would really like some alone time with Bessie, so each cow 𝑖 wants to know if there
+is a valid ordering where cow 𝑖 is the last cow to leave. Please help the cows determine this
+information. It may be that there is no way for the cows to leave satisfying the given constraints.
+
+INPUT FORMAT
+
+The first line of input contains two integers 𝑁 and 𝑀.
+The next 𝑁−1 lines each contain two integers 𝑥𝑖 and 𝑦𝑖 (1≤𝑥𝑖,𝑦𝑖≤𝑁, 𝑥𝑖≠𝑦𝑖), indicating that cows 𝑥𝑖 and 𝑦𝑖
+are friends.
+The next 𝑀 lines each contain two integers 𝑎𝑖 and 𝑏𝑖 (1≤𝑎𝑖,𝑏𝑖≤𝑁, 𝑎𝑖≠𝑏𝑖), indicating that cow 𝑎𝑖 must leave
+the party before cow 𝑏𝑖.
+
+OUTPUT FORMAT
+
+Output 𝑁 lines. The 𝑖th line should contain a 1 if cow 𝑖 could be the last to leave, or a 0 otherwise.
+
+SAMPLE INPUT
+5 1
+1 2
+2 3
+3 4
+4 5
+2 4
+
+SAMPLE OUTPUT
+0
+0
+1
+1
+1
