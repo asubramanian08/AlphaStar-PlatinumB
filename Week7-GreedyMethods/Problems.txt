@@ -1,0 +1,4 @@
+Q1: Gangs of Instanbull/Cowstantinople, USACO-G-DEC2012 q1
+Q2: Covering the Corral, USACO-G-FEB2010 q1
+Q3: Building a Tall Barn, USACO-P-JAN2017 q2
+Q4: High Card Low Card, USACO-P-DEC2015 q2
