@@ -1,0 +1,4 @@
+Q1: Bottleneck, USACO-G-JAN2011 q1
+Q2: Bookshelf, USACO-G-OPEN2012 q2
+Q3: Mowing the Field, IOI-2013 q1
+Q4: Cow Neighborhoods, USACO-G-OPEN2008 q3
