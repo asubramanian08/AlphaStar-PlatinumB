@@ -1,0 +1,97 @@
+Pairs
+=====
+[Memory: 128 MB CPU: 2 sec]
+
+Mirko and Slavko are playing with toy animals. First, they choose 
+one of three boards given in the figure below. Each board consists 
+of cells (shown as circles in the figure) arranged into a one, two 
+or three dimensional grid.
+
+
+Figure: Board 1
+
+
+Figure: Board 2
+
+
+Figure: Board 3
+
+Mirko then places N little toy animals into the cells.
+
+The distance between two cells is the smallest number of moves that 
+an animal would need in order to reach one cell from the other. In 
+one move, the animal may step into one of the adjacent cells 
+(connected by line segments in the figure).
+
+Two animals can hear each other if the distance between their cells 
+is at most D. Slavko's task is to calculate how many pairs of 
+animals there are such that one animal can hear the other.
+
+Write a program that, given the board type, the locations of all 
+animals, and the number D, finds the desired number of pairs.
+
+PROBLEM NAME: pairs
+
+INPUT FORMAT:
+
+The first line of input contains four integers in this order:
+* The board type B (1 <= B <= 3);
+* The number of animals N (1 <= N <= 100,000);
+* The largest distance D at which two animals can hear each other 
+(1 <= D <= 100,000,000);
+* The size of the board M (the largest coordinate allowed to appear 
+in the input):
+    When B=1, M will be at most 75,000,000.
+    When B=2, M will be at most 75,000.
+    When B=3, M will be at most 75.
+
+Each of the following N lines contains B integers separated by 
+single spaces, the coordinates of one toy animal. Each coordinate 
+will be between 1 and M (inclusive). More than one animal may occupy 
+the same cell.
+
+In test cases worth a total of 30 points, the number of animals N 
+will be at most 1,000.
+
+OUTPUT FORMAT:
+
+Output should consist of a single integer, the number of pairs of 
+animals that can hear each other.
+
+Note: use a 64-bit integer type to calculate and output the result 
+(long long in C/C++, long in Java).
+
+SAMPLE INPUT 1:        SAMPLE INPUT 2:        SAMPLE INPUT 3:
+
+1 6 5 100              2 5 4 10               3 8 10 20
+25		       5 2		      10 10 10
+50		       7 2		      10 10 20
+50		       8 4		      10 20 10
+10		       6 5		      10 20 20
+20		       4 4		      20 10 10
+23					      20 10 20
+					      20 20 10
+					      20 20 20
+
+SAMPLE OUTPUT 1:       SAMPLE OUTPUT 2:       SAMPLE OUTPUT 3:
+
+4                      8                      12
+
+Clarification for the leftmost example. Suppose the animals are 
+numbered 1 through 6 in the order in which they are given. The 
+four pairs are:
+
+* 1-5 (distance 5)
+* 1-6 (distance 2)
+* 2-3 (distance 0)
+* 5-6 (distance 3)
+
+Clarification for the middle example. The eight pairs are:
+* 1-2 (distance 2)
+* 1-4 (distance 4)
+* 1-5 (distance 3)
+* 2-3 (distance 3)
+* 2-4 (distance 4)
+* 3-4 (distance 3)
+* 3-5 (distance 4)
+* 4-5 (distance 3)

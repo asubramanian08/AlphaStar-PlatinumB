@@ -1,0 +1,4 @@
+Q1: Running Away From the Barn, USACO-G-DEC2012 q3
+Q2: Pairs, IOI-2007 q5
+Q3: Fence Repair, USACO-G-NOV2006 q1
+Q4: The Lazy Cow, USACO-G-MAR2014 q1
