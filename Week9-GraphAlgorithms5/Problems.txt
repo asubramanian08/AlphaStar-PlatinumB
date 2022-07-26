@@ -1,0 +1,3 @@
+Q1: Disruption, USACO-P-OPEN2018 q3
+Q2: Race, IOI-2011 q2
+Q3: Cow at Large, USACO-G-JAN2018 q2
