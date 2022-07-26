@@ -1,0 +1,33 @@
+Bessie has just constructed a brand new barn for her fellow cows! The barn is bordered by a rectangular fence of size $A$ by $B$ ($1 \leq A,B \leq 10^9$), with corner points at $(0, 0)$ and $(A, B)$.
+Farmer John, however, is worried that this barn gives the cows too much freedom to move around. So, he adds $N$ vertical fences and $M$ vertical fences ($1 \leq N,M \leq 25\,000$) to the barn. The vertical fences have distinct locations $a_1 \ldots a_N$ ($0 < a_i < A$), and each fence runs from $(a_i, 0)$ to $(a_i, B)$. Similarly, the horizontal fences have distinct locations $b_1 \ldots b_M$ ($0 < b_i < B$), and each fence runs from $(0, b_i)$ to $(A, b_i)$. These horizontal and vertical fences divide the large barn into a total of $(N+1)(M+1)$ regions. Each of these regions house exactly one cow.
+Inspecting the new barn layout, Bessie is horrified to see the tiny rectangle that every cow has been confined to. She decides to fix this by removing sections of the fences so that every cow can again reach every other cow. So, she selects some pairs of adjacent regions, and removes the entire length of the fence separating them; she does this in such a way that every cow can reach every other cow after the removals.
+For example, the barn layout might look like this:
++---+--+
+|   |  |
++---+--+
+|   |  |
+|   |  |
++---+--+
+Bessie might open it up like so:
++---+--+
+|      |
++---+  +
+|      |
+|      |
++---+--+
+Please help Bessie determine the minimum length of fencing she must remove so that every pair of cows can reach each other.
+INPUT FORMAT
+The first line of input contains four integers $A$, $B$, $N$, and $M$. The next $N$ lines contain $a_1 \ldots a_N$, and the next $M$ lines contain $b_1 \ldots b_M$.
+OUTPUT FORMAT
+Output a single integer: The minimum length of fencing that Bessie must remove. Note that the answer may not fit in a 32-bit integer, so you might need to use 64-bit integer types (a “long long” in C++).
+SAMPLE INPUT
+15 15 5 2
+2
+5
+10
+6
+4
+11
+3
+SAMPLE OUTPUT
+44

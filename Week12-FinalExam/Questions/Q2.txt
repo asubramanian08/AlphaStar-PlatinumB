@@ -1,0 +1,58 @@
+
+Cow Parentheses 
+Farmer John has just received a new edition of the Moo York Times. The magazine has recently featured a new puzzle known as the Cow Parentheses. In this puzzle there is a tree of $N$ nodes ($1 \leq N \leq 40\,000$), conveniently numbered $1 \dots N$, connected by $N-1$ edges. Each node is labelled with either an opened or a closed parenthesis. 
+Between every pair of nodes there is a unique path, and these paths represent strings. The challenge of the puzzle is to determine, among all possible paths that represent correct parentheses sequences, the maximum depth of any sequence. 
+Correct parenthesis sequences and their depths are defined below:
+An empty string is a correct parenthesis sequence with depth $0$
+If "s" is a correct parenthesis sequence with depth d, then "(s)" is a correct parenthesis sequence with depth d+1
+If "s" and "t" are both correct parenthesis sequences, then the concatenation "st" is a correct bracket sequence with depth equal to the maximum depth of s and t
+Help Farmer John solve this puzzle!
+INPUT FORMAT
+Line 1: The single integer N
+Lines 2..N: Line $i+1$ contains the single integer $x$, indicating that there is an edge between nodes $i$ and $x$ in the tree
+Lines N+1..N*2: Line $N+i$ contains a character, either '(' or ')', indicating the label on node $i$
+OUTPUT FORMAT
+A single integer, indicating the greatest depth of any correct parenthesis sequence along any path of the tree.
+SAMPLE INPUT
+15
+1
+2
+1
+4
+4
+6
+7
+5
+9
+9
+11
+12
+13
+14
+(
+)
+)
+(
+)
+)
+(
+)
+(
+(
+(
+)
+)
+)
+(
+SAMPLE OUTPUT
+3
+OUTPUT DETAILS
+'('--'('--')'--'('--')'
+ |         |
+')'       ')'--'('--'(' < A
+ |              |
+')'            '('--')'--')'--')'--'('
+                               ^B
+The path from node A to node B is the string ((())), which has depth 3
+3
+. This is the maximum depth of any correct parenthesis sequence represented by a path in the tree.
